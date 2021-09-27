@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	
+}
+.img{
+	text-align: center;
+	box-shadow: 0 0 20px 20px;
+	margin: 30px auto;
+}
+
+.header {
+}
+.header__content {
+}
+.header__title {
+	font-size: 150px;
+	text-align: center;		
+	height: 150px;	
+	outline: 10px dotted rgb(63, 45, 112);
+}
+.dop{
+	color: purple;
+	font-size: 40px;
+	text-align: right;
+	border: 5px solid red;
+	margin: 30px auto;
+}
+.header__text {
+	margin: 30px 50px 30px 50px;
+	border: 3px solid rgb(216, 82, 82);
+	border-radius: 10%;
+	padding: 30px;
+	opacity: 0.3;
+}
+.text {
+
+}
+.netflix {
+	color: red;
+	font-family: 'Bebas Neue', cursive;
+	
+}
+.netflix:hover{
+	visibility: hidden;
+}
+
+.header__list {
+	margin: auto 50px;
+	outline: 3px solid rgb(138, 1, 1);
+	
+}
+
+.padding {
+	padding-left: 20px;
+}
+.main {
+	margin: 30px 50px 30px 50px;
+}
+.story {
+}
+.story__title {
+}
+.title {
+	margin: 30px auto 17px;
+	text-align: center;
+	font-size: 30px;
+}
+.story__content {
+
+}
+.base__title {
+
+}
+.base__text {
+	border: 3px solid rgb(138, 1, 1);
+	border-radius: 10%;
+	padding: 30px;
+	opacity: 0.4;
+	box-shadow: 0 0 5px 2px;
+
+}
+.base__text:hover {
+	opacity: 0;
+
+}
+.blockbuster__content {
+}
+.blockbuster__title {
+}
+.blockbuster__text {
+	border: 10px solid rgb(154, 190, 154);
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0.5;
+	
+}
+.blockbuster__text:hover {
+	visibility: hidden;
+}
+.dvd__content {
+}
+.dvd__title {
+}
+.dvd__text {
+	border: 3px solid rgb(255, 238, 3);
+	border-radius: 10%;
+	overflow: scroll;
+	opacity: 0.6;
+	box-shadow: 0 0 10px 10px;
+}
+.international__content {
+}
+.international__title {
+}
+.international__text {
+	border: 7px dotted rgb(0, 173, 253);
+	border-radius: 10%;
+	padding: 30px;
+	opacity: 0.7;
+}
+.owners__content {
+}
+.owners__title {
+}
+.owners__text {
+	border: 3px double rgb(201, 60, 236);
+	border-radius: 10%;
+	padding: 30px;
+	opacity: 0.8;
+}
+.technical__content {
+	text-align: center;
+
+}
+.technical__title {
+}
+.technical__text {
+	border: 3px solid rgb(138, 1, 1);
+	border-radius: 10%;
+	padding: 30px;
+	opacity: 0.9;
+}
+.technical__table {
+	margin: 30px auto;
+	font-size: 0px;
+	width: 650px;
+	min-width: auto;
+	text-align: center;
+}
+
+.technical__table-head1 {
+	width: 200px;
+	background-color: slategray;
+	display: inline-block;	
+	border: solid 2px black;
+	font-size: 20px;
+}
+.technical__table-head2 {	
+	width: 350px;	
+	display: inline-block;
+	background-color: slategray;	
+	border: solid 2px black;
+	font-size: 20px;
+}
+
+.technical__table-part1 {
+	width: 200px;
+	background-color: rgb(177, 177, 177);
+	display: inline-block;
+	border: solid 2px black;
+	font-size: 20px;
+}
+.technical__table-part2 {
+	width: 350px;
+	background-color: silver;
+	display: inline-block;
+	border: solid 2px black;
+	font-size: 20px;
+}
+
+.materials__content {
+	text-align: center;
+}
+.materials__title {
+}
+.netflix-original__content {
+}
+.netflix-original__title {
+}
+.netflix-original__text {
+	border: 3px solid rgb(138, 1, 1);
+	border-radius: 10%;
+	padding: 30px;
+	opacity: 0.2;
+}
+.films__content {
+
+}
+.films__text {
+	border-top: 5px solid red ;
+	border-right: 5px dotted rgb(5, 64, 224) ;
+	border-bottom: 5px double rgb(148, 11, 114) ;
+	border-left: 5px dashed rgb(30, 182, 98) ;
+}
+.films__title {
+}
+.other__content {
+}
+.other__title {
+}
+.other__list {
+}
+.borderito{
+	display: inline-block;
+	border: 2px solid red;
+}
+a {
+	color: blueviolet;	
+	text-shadow: 1px 2px crimson;
+}
+a:hover{
+	color: green;
+}
+a:active{
+	color: hotpink;
+}
+.links__content {
+}
+.links__title {
+}
+.links__list {
+}
+.cirkle-red {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	border-radius: 50%;
+	box-shadow: 0 0 10px 15px;
+	margin: 30px auto;
+}
+.footer {
+}
